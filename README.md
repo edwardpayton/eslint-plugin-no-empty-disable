@@ -1,5 +1,23 @@
-<p align="middle" style="margin-bottom: 30px">
-<img src="https://badgen.net/npm/v/eslint-plugin-no-empty-disable" /> <img src="https://badgen.net/npm/license/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/packagephobia/install/eslint-plugin-no-empty-disable" /> <img src="https://badgen.net/npm/types/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/circleci/github/edwardpayton/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/codacy/grade/f76460171bb84f2480d03e67e5227497" /> <img src="https://badgen.net/dependabot/edwardpayton/eslint-plugin-no-empty-disable/?icon=dependabot"/>
+<p style="float: left; margin-bottom: 50px">
+<a href="https://www.npmjs.com/package/eslint-plugin-no-empty-disable" target="_blank">
+<img src="https://badgen.net/npm/v/eslint-plugin-no-empty-disable" /> 
+</a>
+<a href="https://www.npmjs.com/package/eslint-plugin-no-empty-disable" target="_blank">
+<img src="https://badgen.net/npm/license/eslint-plugin-no-empty-disable" /> 
+</a>
+<a href="https://www.npmjs.com/package/eslint-plugin-no-empty-disable" target="_blank">
+<img src="https://badgen.net/npm/types/eslint-plugin-no-empty-disable"/>
+</a>
+<a href="https://packagephobia.now.sh/result?p=eslint-plugin-no-empty-disable" target="_blank">
+<img src="https://badgen.net/packagephobia/install/eslint-plugin-no-empty-disable" /> 
+</a>
+<a href="https://circleci.com/gh/edwardpayton/eslint-plugin-no-empty-disable" target="_blank">
+<img src="https://badgen.net/circleci/github/edwardpayton/eslint-plugin-no-empty-disable"/> 
+</a>
+<a href="https://app.codacy.com/manual/edwardjpayton/eslint-plugin-no-empty-disable/dashboard" target="_blank">
+ <img src="https://badgen.net/codacy/grade/f76460171bb84f2480d03e67e5227497" />
+</a>
+<img src="https://badgen.net/dependabot/edwardpayton/eslint-plugin-no-empty-disable/?icon=dependabot"/>
 </p>
 
 # eslint-plugin-no-eslint-disable
