@@ -1,10 +1,10 @@
+<p align="middle" style="margin-bottom: 30px">
+<img src="https://badgen.net/npm/v/eslint-plugin-no-empty-disable" /> <img src="https://badgen.net/npm/license/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/packagephobia/install/eslint-plugin-no-empty-disable" /> <img src="https://badgen.net/npm/types/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/circleci/github/edwardpayton/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/codacy/grade/f76460171bb84f2480d03e67e5227497" /> <img src="https://badgen.net/dependabot/edwardpayton/eslint-plugin-no-empty-disable/?icon=dependabot"/>
+</p>
+
 # eslint-plugin-no-eslint-disable
 
 Disallow `eslint-disable` comments without at least one rule.
-
-<p align="middle">
-<img src="https://badgen.net/npm/v/eslint-plugin-no-empty-disable" /> <img src="https://badgen.net/npm/license/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/packagephobia/install/eslint-plugin-no-empty-disable" /> <img src="https://badgen.net/npm/types/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/circleci/github/edwardpayton/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/codacy/grade/f76460171bb84f2480d03e67e5227497" /> <img src="https://badgen.net/dependabot/edwardpayton/eslint-plugin-no-empty-disable/?icon=dependabot"/>
-</p>
 
 ## INSTALL
 
