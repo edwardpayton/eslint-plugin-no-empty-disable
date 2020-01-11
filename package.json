@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-no-empty-disable",
   "author": "Edward Payton",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "description": "Disallow `eslint-disable` comments without at least one rule",
   "main": "dist/index.js",
