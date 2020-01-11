@@ -36,4 +36,8 @@ Disallow `eslint-disable` comments without at least one rule.
 - `// eslint-disable-next-line eqeqeq`
 - `/* eslint-disable no-empty */`
 
+### TODO
+
+- Uses tslint which has now been depecated. Migrate to eslint
+
 Heavily inspired by [https://github.com/unlight/eslint-plugin-no-eslint-disable]
