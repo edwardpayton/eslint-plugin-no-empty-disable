@@ -5,10 +5,10 @@ const regex = /^eslint-disable(-next-line|-line)?($|(\s+(@[\w-]+\/(?:[\w-]+\/)?)
 exports.noEmptyEslintDisable = {
     meta: {
         docs: {
-            description: 'Prevent using `eslint-disable` comments without at least one rule'
+            description: "Prevent using `eslint-disable` comments without at least one rule"
         },
         messages: {
-            messageDisable: 'Disabling all eslint rules is not allowed at line {{line}}:{{column}}. (hint: add the specific rule you want to disable)'
+            messageDisable: "Disabling all eslint rules is not allowed at line {{line}}:{{column}}. (hint: add the specific rule you want to disable)"
         }
     },
     create(context) {
@@ -22,7 +22,7 @@ exports.noEmptyEslintDisable = {
                     line: 0,
                     column: 0
                 },
-                messageId: 'messageDisable',
+                messageId: "messageDisable",
                 data: loc.start
             });
         });

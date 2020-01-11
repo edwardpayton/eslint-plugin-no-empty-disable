@@ -2,6 +2,10 @@
 
 Disallow `eslint-disable` comments without at least one rule.
 
+### INSTALL
+
+`npm i -D eslint-plugin-no-empty-disable`
+
 ## RULE ID
 
 `no-empty-eslint-disable/no-empty-eslint-disable`
