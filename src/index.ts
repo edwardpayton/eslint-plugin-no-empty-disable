@@ -1,5 +1,5 @@
-import { noEmptyEslintDisable } from "./no-empty-eslint-disable";
 import { Rule } from "eslint";
+import { noEmptyEslintDisable } from "./no-empty-eslint-disable";
 
 type RuleDict = {
   [id: string]:

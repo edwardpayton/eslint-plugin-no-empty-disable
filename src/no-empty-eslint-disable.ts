@@ -1,5 +1,5 @@
-import { Rule } from 'eslint';
-import * as ESTree from 'estree';
+import { Rule } from "eslint";
+import * as ESTree from "estree";
 
 // no-empty-eslint-disable
 
@@ -8,10 +8,12 @@ const regex = /^eslint-disable(-next-line|-line)?($|(\s+(@[\w-]+\/(?:[\w-]+\/)?)
 export const noEmptyEslintDisable: Rule.RuleModule = {
   meta: {
     docs: {
-      description: 'Prevent using `eslint-disable` comments without at least one rule'
+      description:
+        "Prevent using `eslint-disable` comments without at least one rule"
     },
     messages: {
-      messageDisable: 'Disabling all eslint rules is not allowed at line {{line}}:{{column}}. (hint: add the specific rule you want to disable)'
+      messageDisable:
+        "Disabling all eslint rules is not allowed at line {{line}}:{{column}}. (hint: add the specific rule you want to disable)"
     }
   },
   create(context: Rule.RuleContext): Rule.RuleListener {
@@ -26,7 +28,7 @@ export const noEmptyEslintDisable: Rule.RuleModule = {
           line: 0,
           column: 0
         },
-        messageId: 'messageDisable',
+        messageId: "messageDisable",
         data: <any>loc.start
       });
     });
