@@ -2,7 +2,11 @@
 
 Disallow `eslint-disable` comments without at least one rule.
 
-### INSTALL
+<p align="middle">
+<img src="https://badgen.net/npm/v/eslint-plugin-no-empty-disable" /> <img src="https://badgen.net/npm/license/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/packagephobia/install/eslint-plugin-no-empty-disable" /> <img src="https://badgen.net/npm/types/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/circleci/github/edwardpayton/eslint-plugin-no-empty-disable"/> <img src="https://badgen.net/codacy/grade/f76460171bb84f2480d03e67e5227497" /> <img src="https://badgen.net/dependabot/edwardpayton/eslint-plugin-no-empty-disable/?icon=dependabot"/>
+</p>
+
+## INSTALL
 
 `npm i -D eslint-plugin-no-empty-disable`
 
@@ -12,7 +16,7 @@ Disallow `eslint-disable` comments without at least one rule.
 
 ## USAGE
 
-```
+```jsonc
 // .eslintrc
 {
   ...
@@ -40,7 +44,7 @@ Disallow `eslint-disable` comments without at least one rule.
 - `// eslint-disable-next-line eqeqeq`
 - `/* eslint-disable no-empty */`
 
-### TODO
+## TODO
 
 - Uses tslint which has now been depecated. Migrate to eslint
 
