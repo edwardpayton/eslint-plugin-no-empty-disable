@@ -20,6 +20,7 @@ module.exports = {
     "unicorn/import-index": 0,
     "unicorn/filename-case": ["error", { case: "kebabCase" }],
     "unicorn/prevent-abbreviations": "off",
+    "unicorn/better-regex": "off",
     "import/newline-after-import": 0,
     "import/no-duplicates": 1,
     "import/max-dependencies": [1, { max: 10 }],
