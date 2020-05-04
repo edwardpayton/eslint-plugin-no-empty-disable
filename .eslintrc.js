@@ -1,16 +1,16 @@
 module.exports = {
   root: true,
   env: {
-    node: true
+    node: true,
   },
   extends: ["eslint:recommended", "plugin:unicorn/recommended"],
-  parser: "typescript-eslint-parser",
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2015,
     sourceType: "module",
     ecmaFeatures: {
-      jsx: false
-    }
+      jsx: false,
+    },
   },
   plugins: ["unicorn", "typescript", "import", "tslint"],
   rules: {
@@ -18,10 +18,12 @@ module.exports = {
     "no-unused-vars": 0,
     indent: 0,
     "unicorn/import-index": 0,
+    "unicorn/filename-case": ["error", { case: "kebabCase" }],
+    "unicorn/prevent-abbreviations": "off",
     "import/newline-after-import": 0,
     "import/no-duplicates": 1,
     "import/max-dependencies": [1, { max: 10 }],
-    quotes: [1, "single", { allowTemplateLiterals: true }],
+    quotes: [1, "double", { allowTemplateLiterals: true }],
     semi: [1, "always"],
     "tslint/config": [
       1,
@@ -31,7 +33,7 @@ module.exports = {
           "node_modules/tslint/lib/rules",
           "node_modules/tslint-clean-code/dist/src",
           "node_modules/tslint-microsoft-contrib",
-          "node_modules/tslint-sonarts/lib/rules"
+          "node_modules/tslint-sonarts/lib/rules",
         ],
         rules: Object.assign(
           {},
@@ -65,10 +67,10 @@ module.exports = {
             "interface-name": false,
             "ban-types": false,
             "no-relative-imports": false,
-            "missing-jsdoc": false
+            "missing-jsdoc": false,
           }
-        )
-      }
-    ]
-  }
+        ),
+      },
+    ],
+  },
 };
